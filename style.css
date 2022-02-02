@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+.logo {
+    height: 50px;
+    display: flex;
+    margin-left: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.register {
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 8px;
+    background: linear-gradient(#ffa81b 0%, #ff5a8bfb 100%);
+    cursor: pointer;
+}
+
+.register:hover {
+    background: #ffa81b;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #0700428f 0%, #04015888 100%),url(./pic/background\ image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30%;
+    color: #fff;
+    cursor: default;
+}
+
+.search h3 {
+    margin-bottom: 30px;
+}
+
+.search input {
+    width: 41%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 40px;
+    padding-left: 55px;
+    font-size: 17px;
+}
+
+.search input, select, textarea {
+    color: #ffffff;
+}
+
+
+.search input:hover {
+    background-color: #a9a9a9;
+    border: 3px #a9a9a9;
+    box-shadow: 2px 2px 2px #000000;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.search input:focus {
+    outline: 1px solid #a9a9a9;
+    color: #ffffff;
+}
+
+.search-icon {
+    height: 25px;
+    position: absolute;
+    top: 52%;
+    left: 31%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 140px;
+    background-color: transparent;
+    border: 2px solid #a9a9a9;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+
+button:hover {
+    background: linear-gradient(#ffa81b 0%, #ff5a8bfb 100%);
+    color: #ffffff;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #fff9fc;
+    width: 100%;
+    height: 121px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 40%;
+    align-items: center;
+}
+
+.foot a {
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+}
+
+.connection {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    height: 30%;
+}
+
+.fab {
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(#ffa81b 0%, #ff5a8bfb 100%);
+    padding: 10px;
+    color: #ffffff;
+    margin-right: 1rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-telegram-plane {
+    font-size: 37px;
+    width: 40px;
+    background: linear-gradient(to bottom, #ffa81b 0%, #ff5a8bfb 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    color: #8f8f8f;
+}
